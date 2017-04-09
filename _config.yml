@@ -7,15 +7,15 @@
 
 # Site Settings
 locale                   : "en"
-title                    : "Site Title"
+title                    : "dbyington"
 title_separator          : "-"
-name                     : "Your Name"
-description              : "An amazing website."
-url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+name                     : "Don Byington"
+description              : "Don's GitHub."
+url                      : "http://dbyington.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "dbyington/dbyington.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-# breadcrumbs            : false # true, false (default)
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
@@ -46,6 +46,13 @@ staticman:
         format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
 atom_feed:
   path                   : # blank (default) uses feed.xml
+  markdown: kramdown
+  theme: minimal-mistakes-jekyll
+  gems:
+    - jekyll-feed
+  exclude:
+    - Gemfile
+    - Gemfile.lock
 
 # SEO Related
 google_site_verification :
@@ -55,7 +62,7 @@ yandex_site_verification :
 
 # Social Sharing
 twitter:
-  username               :
+  username               : "@d_byington"
 facebook:
   username               :
   app_id                 :
@@ -77,11 +84,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
+  name             : "Don Byington"
+  avatar           : "https://avatars0.githubusercontent.com/u/1862927?v=3&s=400" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Making the jump to bit flinger."
   location         : "Somewhere"
-  email            :
+  email            : "don@dbyington.com"
   uri              :
   bitbucket        :
   codepen          :
@@ -89,7 +96,7 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           :
+  github           : "dbyington.com"
   google_plus      :
   keybase          :
   instagram        :
@@ -97,14 +104,15 @@ author:
   linkedin         :
   pinterest        :
   soundcloud       :
-  stackoverflow    : # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
+  stackoverflow    : "http://stackoverflow.com/users/7298653/dbyington" # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
   tumblr           :
-  twitter          :
+  twitter          : "https://twitter.com/d_byington"
   vine             :
   weibo            :
   xing             :
   youtube          : # "https://youtube.com/c/MichaelRoseDesign"
+  codewars         : "https://www.codewars.com/users/dbyington"
 
 
 # Reading Files
