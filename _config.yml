@@ -87,7 +87,7 @@ author:
   name             : "Don Byington"
   avatar           : "https://avatars0.githubusercontent.com/u/1862927?v=3&s=400" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "Making the jump to bit flinger."
-  location         : "Somewhere"
+  location         : "Colorado"
   email            : "don@dbyington.com"
   uri              :
   bitbucket        :
@@ -104,10 +104,10 @@ author:
   linkedin         :
   pinterest        :
   soundcloud       :
-  stackoverflow    : "http://stackoverflow.com/users/7298653/dbyington" # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
+  stackoverflow    : "7298653/dbyington" # "123456/username" (the last part of your profile url, e.g. http://stackoverflow.com/users/123456/username)
   steam            :
   tumblr           :
-  twitter          : "https://twitter.com/d_byington"
+  twitter          : "d_byington"
   vine             :
   weibo            :
   xing             :
