@@ -5,7 +5,6 @@ date:   2017-04-09 13:10:01 -0700
 categories: posts
 ---
 
-# Here we go
 
 Not all things are instantly successful or happen when they should. That's definitely the case here. This is perhaps something that should have happened a decade ago, but "better late than never". Right?
 
