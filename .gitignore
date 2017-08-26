@@ -11,4 +11,4 @@ codekit-config.json
 example/_site
 Gemfile.lock
 node_modules
-npm-debug.log*
+npm-debug.log*.idea
